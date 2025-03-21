@@ -9,7 +9,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
         password: password
     };
 
-    fetch('http://localhost:3000/api/submit', {
+    fetch('https://your-service.onrender.com/api/submit', { // آدرس سرور آنلاین
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
